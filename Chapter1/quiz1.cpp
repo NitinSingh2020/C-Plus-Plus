@@ -1,14 +1,7 @@
 #include <iostream>
 
-int ReadNumber();
-void WriteAnswer(int c);
-
-int main()
-{
-	int a = ReadNumber();
-	int b = ReadNumber();
-	WriteAnswer(a + b);
-}
+// int ReadNumber();
+// void WriteAnswer(int c);
 
 int ReadNumber()
 {
@@ -24,3 +17,11 @@ void WriteAnswer(int c)
 	using namespace std;
 	cout << "Sum of the numbers is: " << c << endl;
 }
+
+int main()
+{
+	int a = ReadNumber();
+	int b = ReadNumber();
+	WriteAnswer(a + b);
+}
+
